@@ -1,4 +1,5 @@
 def tempo_mis_quadratico_biot_infinito(espaco,raizes,coeficientes,ste,N,NP):
+    # Esta rotina calcula o tempo para biot infinito e perfil quadratico
     import math
     import numpy as np
     vetor_tempo_mis_quadratico = np.zeros((N), dtype=np.longdouble)
