@@ -96,7 +96,6 @@ for i_biot in range (0,2):
             gera_imagem(vetor_espaco_numerico,solucao_numerica,vetor_tempo_mid_quadratico_biot_finito,vetor_tempo_mis_quadratico_biot_finito,legenda_imagem,legenda_titulo)
                    
 
-"""
 # Lengendas
 legenda_experimental =['Chumbo resfriado a ar - Bi=0.47  Ste=1.765 .tiff', 'Chumbo resfriado a água - Bi=4.2  Ste=1.765 .tiff', ' Estanho resfriado a água - Bi=2.8  Ste=0.910 .tiff', 'Estanho resfriado a ar - Bi=0.36  Ste=0.910 .tiff']
 legenda_experimental_titulo =['Lead cooled by air, Bi=0.47 and  Ste=1.765', 'Lead cooled by water, Bi=4.2  and Ste=1.765', 'Tin cooled by water, Bi=2.8 and  Ste=0.910', 'Tin cooled by air,  Bi=0.36 and Ste=0.910' ]
@@ -125,5 +124,5 @@ for i in range(0,4):
       vetor_tempo_mis_quadratico_biot_finito = tempo_mis_quadratico_biot_finito(raizes,coeficientes,biot,ste,espaco_experimental,N,NP)
       gera_imagem_experiemetal(espaco_experimental,solucao_experimental, vetor_tempo_mid_quadratico_biot_finito,vetor_tempo_mis_quadratico_biot_finito,legenda,legenda_titulo)
             
-"""      
+     
 

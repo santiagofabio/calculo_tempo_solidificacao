@@ -47,7 +47,7 @@ def gera_imagem_experiemetal(vetor_espaco_numerico,solucao_experimental,vetor_te
      ax2.plot(vetor_espaco_interno,vetor_tempo_mid_quadratico_interno,'m',lw=1 )
      ax2.plot(vetor_espaco_interno, solucao_experimental_interno,'o', lw=1)"""
 
-     plt.savefig(legenda_imagem, format='tiff') 
+     plt.savefig(legenda_imagem, dpi =300, format='tiff')
      plt.show()
      plt.close()
 

@@ -46,7 +46,7 @@ def gera_imagem(vetor_espaco_numerico, solucao_numerico,vetor_tempo_mid_quadrati
      legend = ax1.legend(loc= 'upper left')
      print(f'{legenda_imagem}')
 
-     plt.savefig(legenda_imagem, format='tiff') 
+     plt.savefig(legenda_imagem, dpi =300, format='tiff') 
      plt.show()
      plt.close()
 
